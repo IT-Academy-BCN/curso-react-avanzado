@@ -36,12 +36,6 @@ Al final de este curso, se sentirá cómodo configurando un proyecto React con T
 
 ## Cómo usar este curso
 
-Cada módulo está estructurado de manera que incluye una explicación escrita de los conceptos en el archivo `README.md`, junto con un video que profundiza en cada tema. Se recomienda que lea los materiales y luego vea el video para reforzar lo que ha aprendido. Luego, aplique lo que ha aprendido al proyecto en curso de la aplicación para compartir recetas.
+Cada módulo está estructurado de manera que incluye una explicación escrita de los conceptos en el archivo `README.md`, junto con un video (o varios) que profundiza en cada tema. Se recomienda que lea los materiales y luego vea el video para reforzar lo que ha aprendido. Luego, aplique lo que ha aprendido al proyecto.
 
 ## ¡Empecemos!
-
-Gracias por elegir aprender con nosotros en ITAcademy. Espero que disfrutes el viaje y espero ver lo que vas a crear. ¡Empecemos!
-
----
-
-Siéntase libre de modificar este contenido según sea necesario para que se ajuste mejor a la estructura de su curso y al estilo de enseñanza.

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio básico</title>
+</head>
+<body>
+    <script>
+        var counterButton = document.createElement("button");
+        counterButton.id = 'counterButton';
+        counterButton.textContent = 'Click me!';
+        document.body.appendChild(counterButton);
+        var counterDispaly = document.createElement("p");
+        counterDispaly.id = 'counterDisplay';
+        counterDispaly.textContent = '0';
+        document.body.appendChild(counterDispaly);
+        var counter = 0;
+        function incrementCounter() {
+            counter++;
+            counterDispaly.textContent = counter;
+        }
+        counterButton.addEventListener('click', incrementCounter);
+    </script>
+</body>
+</html>
