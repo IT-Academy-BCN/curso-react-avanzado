@@ -6,21 +6,7 @@ Para los tests de integración en React, utilizaremos React Testing Library. Est
 
 ## Configuración
 
-Para comenzar, necesitamos instalar las dependencias de prueba:
-
-```bash
-npm install --save-dev jest @testing-library/react @babel/preset-env @babel/preset-react babel-jest
-```
-
-Deberás agregar un script a tu `package.json` para correr los tests:
-
-```json
-"scripts": {
-  "test": "jest"
-}
-```
-
-## Ejemplo de Prueba de Integración
+## Ejemplo de Test de Integración
 
 Supón que tenemos un componente `App` que renderiza un `Counter` y un `Greeting` componentes. Queremos probar que estos componentes funcionan correctamente juntos.
 
@@ -42,7 +28,7 @@ const App = () => (
 export default App;
 ```
 
-Y aquí está la prueba de integración:
+Y aquí está el test de integración:
 
 ```jsx
 // App.test.js
@@ -68,9 +54,6 @@ test('App correctly renders and interacts with Counter and Greeting', () => {
 });
 ```
 
-En esta prueba, renderizamos el componente `App` y luego verificamos que los componentes `Counter` y `Greeting` se renderizan e interactúan correctamente.
+En este test, renderizamos el componente `App` y luego verificamos que los componentes `Counter` y `Greeting` se renderizan e interactúan correctamente.
 
-Recuerda, la idea de las pruebas de integración es asegurarte de que los componentes funcionan correctamente juntos, en lugar de simplemente verificar que cada componente funciona de forma aislada.
-```
-
-This provides a basic introduction to integration testing in React. For more advanced usage, you might need to consider additional aspects like async behavior, context providers, etc.
+Recuerda, la idea de los test de integración es asegurarte de que los componentes funcionan correctamente juntos, en lugar de simplemente verificar que cada componente funciona de forma aislada.
