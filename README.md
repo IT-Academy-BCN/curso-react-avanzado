@@ -22,9 +22,9 @@ A lo largo de este curso, desarrollaremos una aplicación real, un buscador de p
 10. Entendiendo useMemo().
 11. Comprender useCallback().
 12. Comprender React.memo().
-13. Pruebas unitarias en React.
-14. Pruebas de integración en React.
-15. Burlarse en React.
+13. Test unitarias en React.
+14. Test de integración en React.
+15. Test y mocking
 
 ## Requisitos previos
 
