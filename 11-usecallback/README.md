@@ -1,10 +1,52 @@
 # Módulo 11: Aprendiendo y comprendiendo useCallback()
 
+Video: [https://youtu.be/0CgTAw0TbwI](https://youtu.be/0CgTAw0TbwI)
+
 El Hook `useCallback()` de React nos permite optimizar aún más el rendimiento de nuestra aplicación al evitar la recreación innecesaria de funciones, especialmente en componentes que renderizan largas listas de casas.
 
 Este Hook devuelve una versión memorizada de la función que solo cambia si cambian las dependencias. Esto es útil cuando pasamos funciones a componentes optimizados que dependen de la igualdad de referencia para prevenir actualizaciones innecesarias.
 
 ## Ejemplo de uso de useCallback()
+
+```jsx
+import React, { useState, useCallback } from 'react';
+
+const Child = React.memo(({ onRemove, item }) => {
+  console.log('Child render', item.id);
+  return (
+    <div>
+      Item: {item.name}
+      <button onClick={() => onRemove(item.id)}>Remove</button>
+    </div>
+  );
+});
+
+const Parent = () => {
+  const [items, setItems] = useState([
+    { id: 1, name: 'Item 1' },
+    { id: 2, name: 'Item 2' },
+    { id: 3, name: 'Item 3' },
+    { id: 4, name: 'Item 4' },
+    { id: 5, name: 'Item 5' },
+  ]);
+
+  const handleRemove = useCallback((removeId) => {
+    setItems(items => items.filter(item => item.id !== removeId));
+  }, []);
+
+  console.log('Parent render');
+
+  return (
+    <div>
+      {items.map(item => (
+        <Child key={item.id} item={item} onRemove={handleRemove} />
+      ))}
+    </div>
+  );
+};
+
+export default Parent;
+```
 
 ```jsx
 import React, { useState, useCallback } from 'react';

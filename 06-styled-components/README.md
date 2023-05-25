@@ -1,5 +1,8 @@
 # Módulo 6: Introducción a Styled Components
 
+Video: [https://youtu.be/ffkhJZ4qiXY](https://youtu.be/ffkhJZ4qiXY)
+Video 2: [https://youtu.be/tatci9ctMfE](https://youtu.be/tatci9ctMfE)
+
 En este módulo presentaremos `styled-components`, una libreria que mejora el estilo CSS en las aplicaciones de React. Lo usaremos para crear estilos reutilizables y modulares en nuestra aplicación.
 
 ## ¿Qué son los Styled Components?

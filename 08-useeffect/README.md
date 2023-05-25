@@ -1,5 +1,7 @@
 # Módulo 8: Aprendiendo y comprendiendo useEffect()
 
+Video: [https://youtu.be/pUgWmrIbbsM](https://youtu.be/pUgWmrIbbsM)
+
 En este módulo, introduciremos y exploraremos el hook `useEffect()`. `useEffect()` nos permite manejar los efectos secundarios (side effects) en nuestros componentes de React, y es una parte integral para entender y trabajar eficientemente con React.
 
 ## Ejemplo de uso de useEffect()
@@ -178,4 +180,3 @@ Aquí, estamos usando `useEffect()` dos veces. El primer `useEffect()` se encarg
  ```
 
  En este ejemplo, estamos intentando acceder al valor actualizado de `count` justo después de llamar a `useEffect()`, pero `count` todavía no se ha actualizado porque `useEffect()` se ejecuta después de la renderización.
-

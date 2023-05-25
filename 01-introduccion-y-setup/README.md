@@ -1,5 +1,7 @@
 # Módulo 1: Introducción y Setup
 
+Video: [https://youtu.be/0Fg_Rgcgvj0](https://youtu.be/0Fg_Rgcgvj0)
+
 Este módulo te guiará a través del setup de un nuevo proyecto utilizando React y TypeScript. Al final de este módulo tendrás la estructura básica del proyecto.
 
 ## Configurando un Proyecto de React y TypeScript con Vite

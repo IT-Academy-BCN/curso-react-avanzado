@@ -1,5 +1,7 @@
 # Módulo 2: ESLint, Prettier
 
+Video: [https://youtu.be/GFNerUz5MK4](https://youtu.be/GFNerUz5MK4)
+
 Em este módulo integraremos ESLint y Prettier en nuestro proyecto para mantener la calidad y consistencia del código mientras desarrollamos.
 
 ## Introducción a ESLint y Prettier

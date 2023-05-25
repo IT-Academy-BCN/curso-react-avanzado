@@ -1,5 +1,7 @@
 # Módulo 3: Código Declarativo en React.jsx - Imperativo vs Declarativo. HTML/CSS/JS vs JSX
 
+[https://youtu.be/je9NurPAoRY](https://youtu.be/je9NurPAoRY)
+
 En este módulo exploraremos las distinciones entre HTML/CSS/JS y JSX, y discutiremos los conceptos de programación imperativa y declarativa.
 
 ## Imperativo vs Declarativo

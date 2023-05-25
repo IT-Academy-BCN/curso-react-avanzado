@@ -1,5 +1,7 @@
 # Módulo 5: Estructuración del Código y Diseño Atómico
 
+Video: [https://youtu.be/1yZIwGZt0LY](https://youtu.be/1yZIwGZt0LY)
+
 A medida que nuestra aplicación crece, es esencial entender cómo estructurar efectivamente nuestro código. Esto incluye descomponer un sitio web en componentes, adoptar metodologías como el Diseño Atómico e implementar sistemas de diseño. En este módulo, profundizaremos en estos conceptos.
 
 ## Importancia de la Estructuración del Código

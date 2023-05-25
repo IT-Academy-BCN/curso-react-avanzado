@@ -1,5 +1,7 @@
 # Módulo 7: Aprendiendo y comprendiendo useState()
 
+Video: [https://youtu.be/f4McUV7R9zY](https://youtu.be/f4McUV7R9zY)
+
 En este módulo exploraremos el hook `useState()` de React. Esta herramienta nos permite añadir estado a nuestros componentes funcionales y realizar acciones basadas en las interacciones del usuario.
 
 ## ¿Qué es `useState()`?

@@ -1,5 +1,7 @@
 # Módulo 4: Estilos, props y props especiales en React
 
+Video: [https://youtu.be/g4Jj_2NAPcE](https://youtu.be/g4Jj_2NAPcE)
+
 En este modulo nos centraremos en tres conceptos principales de React: estilos, props y props especiales. Al entender estos conceptos, podremos hacer que nuestra aplicación no solo sea visualmente atractiva, sino también eficiente y dinámica.
 
 ## Estilos en React

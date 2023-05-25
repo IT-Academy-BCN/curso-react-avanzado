@@ -1,5 +1,7 @@
 # Módulo 9: Aprendiendo sobre hooks
 
+Video: [https://youtu.be/wlsL4klK3rU](https://youtu.be/wlsL4klK3rU)
+
 Los Hooks de React son funciones que nos permiten "engancharnos" a las características de React desde un componente funcional. En este módulo, aprenderemos cómo usar Hooks para manejar la lógica de estado más compleja en nuestra aplicación. 
 
 Para ilustrar la utilidad de los Hooks, crearemos un Hook personalizado llamado `useFetch`, que combinará el uso de `useState` y `useEffect` para facilitar la obtención de datos desde una API.
