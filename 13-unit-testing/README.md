@@ -1,4 +1,4 @@
-# Tests Unitarias en React con Vitest
+# Tests Unitarios en React con Vitest
 
 Vitest es una herramienta de pruebas unitarias moderna y ligera, creada por el mismo creador de Vite y Vue.js. En este documento, aprenderemos a utilizar Vitest para probar componentes React.
 
