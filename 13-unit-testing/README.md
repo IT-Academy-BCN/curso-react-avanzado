@@ -10,7 +10,7 @@ Primero, necesitas instalar las dependencias necesarias. Asegúrate de tener ins
 npm install --save-dev vitest
 ```
 
-Para correr las pruebas, puedes agregar un script a tu `package.json`:
+Para correr los tests, puedes agregar un script a tu `package.json`:
 
 ```json
 "scripts": {
@@ -18,9 +18,9 @@ Para correr las pruebas, puedes agregar un script a tu `package.json`:
 }
 ```
 
-## Ejemplos de Pruebas
+## Ejemplos de Tests
 
-### 1. Prueba del Componente `Counter`
+### 1. Test del Componente `Counter`
 
 Imagina que tienes el siguiente componente de contador:
 
@@ -44,7 +44,7 @@ const Counter = () => {
 export default Counter;
 ```
 
-Aquí tienes una prueba unitaria para este componente:
+Aquí tienes un test unitario para este componente:
 
 ```jsx
 // Counter.test.js
@@ -65,7 +65,7 @@ test('renders Counter and increases count on click', () => {
 });
 ```
 
-### 2. Prueba del Componente `Greeting`
+### 2. Test del Componente `Greeting`
 
 Ahora, imaginemos otro componente simple llamado `Greeting`:
 
@@ -80,7 +80,7 @@ const Greeting = ({ name }) => {
 export default Greeting;
 ```
 
-Aquí está cómo podrías escribir una prueba para este componente:
+Aquí está cómo podrías escribir un test para este componente:
 
 ```jsx
 // Greeting.test.js
@@ -95,4 +95,4 @@ test('renders Greeting with provided name', () => {
 });
 ```
 
-Con estos ejemplos, deberías poder comenzar a escribir pruebas unitarias para tus propios componentes React. Recuerda que las pruebas unitarias deben centrarse en el comportamiento de tus componentes desde la perspectiva del usuario (por ejemplo, lo que verían e interactuarían), en lugar de los detalles de implementación. ¡Feliz prueba!
+Con estos ejemplos, deberías poder comenzar a escribir test unitarios para tus propios componentes React. Recuerda que los tests unitarios deben centrarse en el comportamiento de tus componentes desde la perspectiva del usuario (por ejemplo, lo que verían e interactuarían), en lugar de los detalles de implementación. ¡Feliz prueba!
