@@ -1,12 +1,14 @@
 # Tests Unitarios en React con Vitest y React Testing Library
 
+Video: [https://youtu.be/FEvysucW4ow](https://youtu.be/FEvysucW4ow)
+
 En este modulo profundizaremos en la importancia y la práctica de los test unitarios, un proceso en el que verificamos la funcionalidad de los componentes individuales de una aplicación React de forma aislada. Los test unitarios son una parte fundamental para mantener la calidad del código, garantizar la confiabilidad de la aplicación y detectar errores al principio del ciclo de desarrollo.
 
 Usaremos un conjunto de herramientas necesarias para poder ejecutar los tests, que son:
 
-- React Testing Library: una herramienta liviana pero efectiva que brinda una perspectiva más centrada en el usuario para los test. Veremos como hacer que nuestras aplicaciones sean más accesibles y a desarrollar tests que reflejen las interacciones de los usuarios en el mundo real.
-- Vitest: un ejecutor de pruebas de JavaScript moderno y rápido diseñado para Vite. Los beneficios de Vitest, como el soporte ESM nativo, el aislamiento de tests y su capacidad para realizar tests en paralelo, lo hacen perfecto para el curso.
-- JSDOM: Para ser capazces de ejecutar test unitarios y reproducir las interacciones de usuario debemos usar un navegador, en este caso utilizaremos JSDOM, un navegador sin interfaz basado en JavaScript que simula el entorno de un navegador. JSDOM proporcionará la plataforma para renderizar nuestros componentes y realizar pruebas, imitando operaciones en un entorno de navegador real.
+- **React Testing Library**: una herramienta liviana pero efectiva que brinda una perspectiva más centrada en el usuario para los test. Veremos como hacer que nuestras aplicaciones sean más accesibles y a desarrollar tests que reflejen las interacciones de los usuarios en el mundo real.
+- **Vitest**: un ejecutor de tests JavaScript moderno y rápido diseñado para Vite. Los beneficios de Vitest, como el soporte ESM nativo, el aislamiento de tests y su capacidad para realizar tests en paralelo, lo hacen perfecto para el curso.
+- **JSDOM**: Para ser capazces de ejecutar test unitarios y reproducir las interacciones de usuario debemos usar un navegador, en este caso utilizaremos JSDOM, un navegador sin interfaz basado en JavaScript que simula el entorno de un navegador. JSDOM proporcionará la plataforma para renderizar nuestros componentes y realizar pruebas, imitando operaciones en un entorno de navegador real.
 
 
 ## Configuración
@@ -14,7 +16,7 @@ Usaremos un conjunto de herramientas necesarias para poder ejecutar los tests, q
 Primero, necesitas instalar las dependencias necesarias. Asegúrate de tener instalado `vitest` y `@testing-library/react` en tu proyecto:
 
 ```bash
-npm install --save-dev vitest @testing-library/react
+npm install --save-dev vitest @testing-library/react jsdom @testing-library/jest-dom
 ```
 
 Para correr los tests, puedes agregar un script a tu `package.json`:
@@ -102,4 +104,4 @@ test('renders Greeting with provided name', () => {
 });
 ```
 
-Con estos ejemplos, deberías poder comenzar a escribir test unitarios para tus propios componentes React. Recuerda que los tests unitarios deben centrarse en el comportamiento de tus componentes desde la perspectiva del usuario (por ejemplo, lo que verían e interactuarían), en lugar de los detalles de implementación. ¡Feliz prueba!
+Con estos ejemplos, deberías poder comenzar a escribir test unitarios para tus propios componentes React. Recuerda que los tests unitarios deben centrarse en el comportamiento de tus componentes desde la perspectiva del usuario (por ejemplo, lo que verían e interactuarían), en lugar de los detalles de implementación. ¡Feliz testing!
